@@ -1,0 +1,27 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+credentials*
+secrets*
+*.pem
+*.key
+.aws/
+
+# Local environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+node_modules/
+
+# Machine-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
